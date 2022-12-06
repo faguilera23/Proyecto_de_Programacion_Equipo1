@@ -1,8 +1,8 @@
-﻿Secciones transversales y el uso de herramientas tecnológicas.
+# **Secciones transversales y el uso de herramientas tecnológicas.**
 
 ![](Aspose.Words.ef8416f3-5098-407f-9406-43c26dd12b9c.001.png)
 
-# **Francisco Javier Aguilera Robles (1), Barbara García Carbajal (2) Jorge Ignacio García Gutiérrez (3)**
+Francisco Javier Aguilera Robles (1), Barbara García Carbajal (2) Jorge Ignacio García Gutiérrez (3)
 
 (1) Facultad de Ingeniería Civil, Colima - Coquimatlán Kilómetro 9, Jardines del Llano, 28400 Coquimatlán, Col., [faguilera@ucol.mx (](mailto:faguilera@ucol.mx)2) [bgarcia42@ucol.mx (](mailto:bgarcia42@ucol.mx)3) <jgarcia73@ucol.mx>
 
