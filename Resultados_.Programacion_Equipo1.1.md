@@ -12,14 +12,13 @@ Se llevará acabo la digitalización de las secciones transversales de un lugar 
 
 **Palabras clave**: nivel fijo, perfil, longitudinal, transversal, Python.
 
-Abstract
+**Abstract**
 
 The digitalization of the cross sections of a placeto be defined will be carried out using the fixed level to know the behavior of the terrain longitu- dinally and transversally; In addition, work with Python will be supported for calculations prior to making the profile and sections. The graphic visualization of the terrain both in CivilCAD and in Python. Also, the closest geolocation to the survey site using QGIS.
 
-Keywords:
+**Keywords:**
 
 fixed	level,	profile,	longitudinal,	transverse, Python
-**
 
 **Introducción:**
 
@@ -27,25 +26,13 @@ Este proyecto se basa en obtener el nivel del canal que se localiza al costado d
 
 **Desarrollo y manejo de datos:**
 
-El proyecto consistirá en determinar, el perfil y con ello las secciones transversales de un "canal" ubicado en las instalaciones de la Facultad de Ingeniería civil con la finalidad de realizar una ampliación; además de que permita recolectar la información necesaria para determinar y conocer el comportamiento del área de estudio, y así obtener la información necesaria para lograr los
-
-
-Keywords:
-
-fixed	level,	profile,	longitudinal,	transverse, Python
-**
-
-
-cálculos de los datos del terreno como lo son el desnivel, la tolerancia, y el error así obteniendo las cotas y la capacidad máxima de contención.
+El proyecto consistirá en determinar, el perfil y con ello las secciones transversales de un "canal" ubicado en las instalaciones de la Facultad de Ingeniería civil con la finalidad de realizar una ampliación; además de que permita recolectar la información necesaria para determinar y conocer el comportamiento del área de estudio, y así obtener la información necesaria para lograr los cálculos de los datos del terreno como lo son el desnivel, la tolerancia, y el error así obteniendo las cotas y la capacidad máxima de contención.
 
 El levantamiento topográfico es el proceso de determinar la posición relativa de los elementos naturales y artificiales sobre o bajo la superficie de la tierra. El Congreso Americano de Topografía y Cartografía (ACSM) define la topografía como la ciencia y el arte de realizar todas las mediciones esenciales para determinar la posición relativa de puntos o detalles físicos y culturales arriba, sobre o debajo de la superficie de la Tierra, y para representarlos en forma utilizable, o para establecer la posición de los puntos o detalles. Hace cuatro mil años, los conceptos de matemáticas eran básicos, sin embargo, los egipcios fueron capaces de lograr maravillas. Utilizaron los predecesores de los instrumentos topográficos modernos para realizar muchas hazañas, desde canales hasta pirámides.
 
-Para entrar un poco en tema, se deben conocer algunos conceptos claves para este proyecto. Secciones transversales: Las secciones transversales son líneas de niveles o perfiles cortos que se realizan de forma perpendicular al eje del proyecto. (A., 2021) proporcionan la información necesaria para la estimación de los volúmenes de movimientos de tierras. Existen dos tipos
-
-generales    de secciones transversales para proyectos de vías terrestres como carreteras y para bancos de materiales. Otro de los conceptos sería el de la n nivelación de perfil que es el proceso de determinación de una serie de elevaciones siguiendo una línea fija. El perfil es absolutamente necesario para el trazo de pendientes, carreteras, canales, drenajes, etc. Dicho   proceso es para fines de localización, diseño y construcción, donde es necesario determinar las elevaciones, a lo largo de las rutas propuestas de carreteras, canales, vías ferroviarias, líneas de conducción de agua, etc.
+Para entrar un poco en tema, se deben conocer algunos conceptos claves para este proyecto. Secciones transversales: Las secciones transversales son líneas de niveles o perfiles cortos que se realizan de forma perpendicular al eje del proyecto. (A., 2021) proporcionan la información necesaria para la estimación de los volúmenes de movimientos de tierras. Existen dos tipos generales    de secciones transversales para proyectos de vías terrestres como carreteras y para bancos de materiales. Otro de los conceptos sería el de la n nivelación de perfil que es el proceso de determinación de una serie de elevaciones siguiendo una línea fija. El perfil es absolutamente necesario para el trazo de pendientes, carreteras, canales, drenajes, etc. Dicho   proceso es para fines de localización, diseño y construcción, donde es necesario determinar las elevaciones, a lo largo de las rutas propuestas de carreteras, canales, vías ferroviarias, líneas de conducción de agua, etc.
 
 ![Imagen3](https://user-images.githubusercontent.com/119510798/205818643-90c517aa-d9b3-4988-96e3-e74a6acd157d.jpg)
-![](Aspose.Words.ef8416f3-5098-407f-9406-43c26dd12b9c.002.jpeg)
 
 Ejemplo de secciones transversales.
 
@@ -62,13 +49,10 @@ Tener conocimiento de algún lenguaje de programación. Preferiblemente Python, 
 Abrir consola de Python:
 
 ![Imagen1](https://user-images.githubusercontent.com/119510798/205818077-7171d135-5703-4938-b006-4098c5cefdb1.png)
-![](Aspose.Words.ef8416f3-5098-407f-9406-43c26dd12b9c.003.png)
 
 Con esto, en la parte inferior nos aparece la consola de Python:
 
 ![Imagen2](https://user-images.githubusercontent.com/119510798/205818502-d5268d72-f1c5-40fa-9b4f-4db27915935f.png)
-
-![](Aspose.Words.ef8416f3-5098-407f-9406-43c26dd12b9c.004.png)
 
 En la barra inferior se pueden ir escribiendo comandos para realizar procesos.
 
@@ -84,9 +68,7 @@ Método utilizado:
 
 Consiste, en términos generales, en ubicar primero un banco de nivel o un punto de referencia, y después mediante este levantamiento, se obtienen los perfiles o secciones del terreno, transversales a los lados del polígono, cubriendo el área requerida. Los pasos para seguir se describen a continuación:
 
-- Definir las secciones transversales perpendiculares a la línea central en cada estación,
-
-` `espaciándolas según sea conveniente.
+• Definir las secciones transversales perpendiculares a la línea central en cada estación, espaciándolas según sea conveniente.
 
 •	Tomar lecturas en el centro de las secciones, a la izquierda y a la derecha del eje.
 
@@ -139,11 +121,14 @@ des = (cb-ca)
 
 print("El desnivel entre los 2 puntos` `es:",des,)
 
-if des>0:`  `print("La pendiente es positiva")
+if des>0:
+`  `print("La pendiente es positiva")
 
-elif des<0:`  `print("La pendiente es negativa")
+elif des<0:
+`  `print("La pendiente es negativa")
 
-else:`  `print("La pendiente es cero")
+else:
+`  `print("La pendiente es cero")
 
 Ingrese la distancia recorrida en km: **0.12167**
 
@@ -223,10 +208,6 @@ plt.show()
 
 ![Imagen7](https://user-images.githubusercontent.com/119510798/205819856-e629118d-5a0d-466d-9c30-7c0717e7fbe3.png)
 
-![Gráfico, Gráfico de líneas
-
-Descripción generada automáticamente](Aspose.Words.ef8416f3-5098-407f-9406-43c26dd12b9c.007.png)
-
 #Secciones
 
 from google.colab import drive
@@ -270,10 +251,6 @@ plt.plot(x, y, marker = 'o', c = 'g')
 plt.show()
 
 ![Imagen6](https://user-images.githubusercontent.com/119510798/205819918-2d4bf2cb-1dfb-43d9-82d9-5edf3d6a3f6a.png)
-
-![Gráfico, Gráfico de líneas
-
-Descripción generada automáticamente](Aspose.Words.ef8416f3-5098-407f-9406-43c26dd12b9c.008.png)
 
 #Geolocalizar la zona
 
@@ -333,8 +310,6 @@ my\_map.plot(x,y,color="red", marker="o",markersize="6")
 
 ![Imagen8](https://user-images.githubusercontent.com/119510798/205820252-dbb1c424-f69d-4947-825a-7c688baf67f3.png)
 
-![](Aspose.Words.ef8416f3-5098-407f-9406-43c26dd12b9c.009.png)
-
 !pip install folium
 
 import folium 
@@ -348,8 +323,6 @@ folium.Marker([19.212646978209623, -103.80425883150892], popup='FIC', tooltip
 m
 
 ![Imagen9](https://user-images.githubusercontent.com/119510798/205820388-163f872d-08dc-41d7-88e5-f1665616e494.png)
-
-![](Aspose.Words.ef8416f3-5098-407f-9406-43c26dd12b9c.010.png)
 
 Codigo en PyQgis
 
@@ -410,8 +383,6 @@ vlayer = QgsVectorLayer(Colima, baseName)
 QgsProject.instance().addMapLayer(vlayer)
 
 ![Imagen10](https://user-images.githubusercontent.com/119510798/205820472-76347ec6-5eaf-486f-af9d-3fcee2e4d1ad.png)
-
-![](Aspose.Words.ef8416f3-5098-407f-9406-43c26dd12b9c.011.png)
 
 
 **Conclusiones:**
