@@ -1,6 +1,10 @@
 # Proyecto_de_Programacion_Equipo1
 # **Secciones transversales y el uso de herramientas tecnológicas.**
+**Prof: Sebastián Gonzalez**
 
+**3•B**
+
+**Programación II**
 ![](Aspose.Words.ef8416f3-5098-407f-9406-43c26dd12b9c.001.png)
 
 Francisco Javier Aguilera Robles (1), Barbara García Carbajal (2) Jorge Ignacio García Gutiérrez (3)
